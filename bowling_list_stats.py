@@ -8,6 +8,7 @@ pinole_league = [
     235, 205, 216,
     151, 194, 214,
     227, 159, 198,
+    200, 228, 184,
 ]
 print("\n****Pinole Valley Thursday League****")
 print(f"Total games:  ", len(pinole_league))
