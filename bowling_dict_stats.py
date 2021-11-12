@@ -1,6 +1,7 @@
 import statistics
 
 pinole_league_dict = {
+    '111121': [176, 211, 235],
     '110421': [190, 205, 259],
     '102821': [200, 228, 184],
     '102121': [146, 189, 234],
@@ -49,8 +50,4 @@ print(f"Standard Deivation:  {int(statistics.stdev(earl_dict_list))}")
 print(f"High game:   ", max(earl_dict_list))
 print(f"Low game:   ", min(earl_dict_list))
 
-# study for later use
-# a = ({k: sum(v) for k, v in pinole_league_dict.items()})
-# b = sum(map(len, pinole_league_dict.values()))
-# ad = ({k: sum(v) for k, v in earl_league_dict.items()})
-# bd = sum(map(len, earl_league_dict.values()))
+
